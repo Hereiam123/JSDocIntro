@@ -1,4 +1,5 @@
 //@ts-check
+const { add, subtract, divide, multiply } = require("./calculator");
 
 /**
  * Student Name
@@ -74,3 +75,17 @@ class Person {
     console.log(`Hello, my name is ${this.name} and I am ${this.age}`);
   }
 }
+
+//Checking the person class
+/**
+ * Person one
+ * See {@link Person}
+ */
+const person1 = new Person({
+  name: "Jack Rykart",
+  age: 30
+});
+
+console.log(person1.greet());
+
+console.log(add(20, 50));
