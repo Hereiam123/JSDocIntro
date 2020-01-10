@@ -2,6 +2,12 @@
 const { add, subtract, divide, multiply } = require("./calculator");
 
 /**
+ * @file index.js is the root file for this example
+ * @author Brian De Maio
+ * @see <a href="https://www.demaiodesign.com">De Maio Design</a>
+ */
+
+/**
  * Student Name
  * @type {string}
  */
