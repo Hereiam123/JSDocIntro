@@ -19,3 +19,13 @@ const todo = {
   id: 1,
   text: "Hello"
 };
+
+/**
+ * Calculate tax
+ * @param {number} amount - Total Amount
+ * @param {number} tax - Tax percentage to be applied
+ * @returns {string} - Total with a dollar sign
+ */
+const calculateTax = (amount, tax) => {
+  return `$${amount + tax * amount}`;
+};
