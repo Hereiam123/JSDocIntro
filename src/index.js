@@ -29,3 +29,22 @@ const todo = {
 const calculateTax = (amount, tax) => {
   return `$${amount + tax * amount}`;
 };
+
+/**
+ * A student
+ * @typedef {Object} Student
+ * @property {number} id - Student ID
+ * @property {string} name - Student name
+ * @property {string|number} [age] - Student age (optional)
+ * @property {boolean} isActive - Student is active
+ */
+
+/**
+ * @type {Student}
+ */
+const student = {
+  id: 1,
+  name: "Jill Valentine",
+  age: 28,
+  isActive: true
+};
