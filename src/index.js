@@ -48,3 +48,29 @@ const student = {
   age: 28,
   isActive: true
 };
+
+/**
+ * Class to create a Person
+ */
+class Person {
+  /**
+   *
+   * @param {Object} personInfo - Information about the person
+   */
+  constructor(personInfo) {
+    /**
+     * @property {string} name - Persons name
+     * @property {string|number} age - Persons age
+     */
+    this.name = personInfo.name;
+    this.age = personInfo.age;
+  }
+
+  /**
+   * @property {Function} greet - A greeting with the name and age
+   * @returns {void}
+   */
+  greet() {
+    console.log(`Hello, my name is ${this.name} and I am ${this.age}`);
+  }
+}
